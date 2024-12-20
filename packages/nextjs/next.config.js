@@ -16,4 +16,9 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+//Небезопасно, использовать только для тестирования
+module.exports = {
+  images: {
+    unoptimized: true,
+  },
+};
